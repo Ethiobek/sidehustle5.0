@@ -5,6 +5,7 @@ function ProductHomeRow({
   productDescription,
   productPrice,
   productImage,
+  buttonName,
 }) {
   return (
     <div className="product">
@@ -21,7 +22,7 @@ function ProductHomeRow({
         <p>
           Price <span className="prod__price">{productPrice}</span>
         </p>
-        <button className="banner__button">Details</button>
+        <button className="banner__button">{buttonName}</button>
       </div>
     </div>
   );

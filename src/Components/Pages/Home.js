@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import ProductHomeRow from "./ProductHomeRow";
+import Products from "./Products";
 function Home() {
   return (
     <div
@@ -26,51 +26,10 @@ function Home() {
         </h1>
       </div>
       <div className="banner--fadeBottom" />
-      <div className="products">
-        <ProductHomeRow
-          productName="Humberger"
-          productDescription="This humburger is the most liked burger from our restaurant, you can check it out."
-          productImage="https://www.nicepng.com/png/full/302-3027370_free-png-hamburger-png-pic-png-images-transparent.png"
-          productPrice="15.00 $"
-        />
-        <ProductHomeRow
-          productName="Humberger"
-          productDescription="This humburger is the most liked burger from our restaurant, you can check it out."
-          productImage="https://www.nicepng.com/png/full/302-3027370_free-png-hamburger-png-pic-png-images-transparent.png"
-          productPrice="15.00 $"
-        />
-        <ProductHomeRow
-          productName="Humberger"
-          productDescription="This humburger is the most liked burger from our restaurant, you can check it out."
-          productImage="https://www.nicepng.com/png/full/302-3027370_free-png-hamburger-png-pic-png-images-transparent.png"
-          productPrice="15.00 $"
-        />
-        <ProductHomeRow
-          productName="Humberger"
-          productDescription="This humburger is the most liked burger from our restaurant, you can check it out."
-          productImage="https://www.nicepng.com/png/full/302-3027370_free-png-hamburger-png-pic-png-images-transparent.png"
-          productPrice="15.00 $"
-        />
-        <ProductHomeRow
-          productName="Humberger"
-          productDescription="This humburger is the most liked burger from our restaurant, you can check it out."
-          productImage="https://www.nicepng.com/png/full/302-3027370_free-png-hamburger-png-pic-png-images-transparent.png"
-          productPrice="15.00 $"
-        />
-        <ProductHomeRow
-          productName="Humberger"
-          productDescription="This humburger is the most liked burger from our restaurant, you can check it out."
-          productImage="https://www.nicepng.com/png/full/302-3027370_free-png-hamburger-png-pic-png-images-transparent.png"
-          productPrice="15.00 $"
-        />
-        <ProductHomeRow
-          productName="Humberger"
-          productDescription="This humburger is the most liked burger from our restaurant, you can check it out."
-          productImage="https://www.nicepng.com/png/full/302-3027370_free-png-hamburger-png-pic-png-images-transparent.png"
-          productPrice="15.00 $"
-        />
+      <div>
+        <h3 className="blackColor">Foods</h3>
       </div>
-      <h5 color="black">Drinks</h5>
+      <Products />
     </div>
   );
 }
